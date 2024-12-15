@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Переход на другой сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Нажмите кнопку для перехода на сайт</h1>
+    <button id="myButton">Халява</button>
+
+    <script>
+        document.getElementById('myButton').onclick = function() {
+            window.location.href = 'https://apponfly.com'; // Замените URL на нужный вам сайт
+        };
+    </script>
+
+</body></html>
